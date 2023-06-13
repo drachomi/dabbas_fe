@@ -1054,15 +1054,33 @@ input[type='checkbox'] {
 	position: relative;
 	border: none;
 	background-color: transparent;
+	text-align: center;
 }
 
-.slider .card-image {
+.slider .fa-stack {
+	width: 5em;
+	/* margin-right: 0.25rem; */
+	font-size: 3.75rem;
+	margin: 10px 0;
+}
+
+/* .slider .card-image {
 	width: 80px;
 	height: 80px;
 	margin-right: auto;
 	margin-bottom: 1.25rem;
 	margin-left: auto;
 	border-radius: 50%;
+} */
+
+.slider .fa-stack-2x {
+	color: #2b44ff;
+	transition: all 0.2s ease;
+}
+
+.slider .fa-stack-1x {
+	color: #fff;
+	transition: all 0.2s ease;
 }
 
 .slider .card-body {

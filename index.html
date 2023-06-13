@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Viso is a website Bootstrap HTML template designed to help recruiting agencies present their job offerings as filterable grid or basic list and gather applications from visitors">
-    <meta name="author" content="Inovatik">
+    <meta name="description" content="Dabbas harnesses the power of a peer-to-peer network, connecting individuals who travel specific routes to efficiently deliver products.">
+    <meta name="author" content="Imoh Richard">
 
     <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
-	<meta property="og:site_name" content="" /> <!-- website name -->
-	<meta property="og:site" content="" /> <!-- website link -->
+	<meta property="og:site_name" content="Dabbas.com" /> <!-- website name -->
+	<meta property="og:site" content="https://dabbas.com" /> <!-- website link -->
 	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
 	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
 	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
@@ -49,7 +49,7 @@
             </button>
 
             <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
-                <ul class="navbar-nav ml-auto">
+                <!-- <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="services.html">Services <span class="sr-only">(current)</span></a>
                     </li>
@@ -72,8 +72,8 @@
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
-                </ul>
-                <span class="nav-item social-icons">
+                </ul> -->
+                <span class="nav-item social-icons ml-auto">
                     <span class="fa-stack">
                         <a href="#your-link">
                             <i class="fas fa-circle fa-stack-2x"></i>
@@ -204,12 +204,17 @@
                                 <div class="help-block with-errors"></div>
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control-input" id="gjob" name="gjob" required>
-                                <label class="label-control" for="gjob">Applying for...</label>
+                                <!-- <input type="text" class="form-control-input" id="gjob" name="gjob" required> -->
+                                <select name="" id="" class="form-control-input">
+                                    <option value=""></option>
+                                    <option value="vendor">Vendor</option>
+                                    <option value="courier">Courier</option>
+                                </select>
+                                <label class="label-control" for="gjob">Registering as a...</label>
                                 <div class="help-block with-errors"></div>
                             </div>
-                            <input name="file_attach" type="file" id="file" class="inputfile" data-multiple-caption="{count} files selected" multiple required />
-                            <label for="file"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17"><path d="M10 0l-5.2 4.9h3.3v5.1h3.8v-5.1h3.3l-5.2-4.9zm9.3 11.5l-3.2-2.1h-2l3.4 2.6h-3.5c-.1 0-.2.1-.2.1l-.8 2.3h-6l-.8-2.2c-.1-.1-.1-.2-.2-.2h-3.6l3.4-2.6h-2l-3.2 2.1c-.4.3-.7 1-.6 1.5l.6 3.1c.1.5.7.9 1.2.9h16.3c.6 0 1.1-.4 1.3-.9l.6-3.1c.1-.5-.2-1.2-.7-1.5z"/></svg> <span id="filelabel">Choose a file&hellip;</span></label>
+                            <!-- <input name="file_attach" type="file" id="file" class="inputfile" data-multiple-caption="{count} files selected" multiple required />
+                            <label for="file"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17"><path d="M10 0l-5.2 4.9h3.3v5.1h3.8v-5.1h3.3l-5.2-4.9zm9.3 11.5l-3.2-2.1h-2l3.4 2.6h-3.5c-.1 0-.2.1-.2.1l-.8 2.3h-6l-.8-2.2c-.1-.1-.1-.2-.2-.2h-3.6l3.4-2.6h-2l-3.2 2.1c-.4.3-.7 1-.6 1.5l.6 3.1c.1.5.7.9 1.2.9h16.3c.6 0 1.1-.4 1.3-.9l.6-3.1c.1-.5-.2-1.2-.7-1.5z"/></svg> <span id="filelabel">Choose a file&hellip;</span></label> -->
                             <div class="form-group">
                                 <button type="submit" class="form-control-submit-button">Submit</button>
                             </div>
@@ -248,7 +253,12 @@
                                 <!-- Slide -->
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img class="card-image" src="images/testimonial-1.jpg" alt="alternative">
+                                        <span class="fa-stack">
+                                            <a href="#your-link">
+                                                <i class="fas fa-circle fa-stack-2x"></i>
+                                                <i class="fas fa-user-alt fa-stack-1x"></i>
+                                            </a>
+                                        </span>
                                         <div class="card-body">
                                             <p class="testimonial-text">Dabbas transformed my business, expanding my reach and delivering my products promptly. Highly recommended!</p>
                                             <p class="testimonial-author">Sarah, Online Boutique Owner</p>
@@ -260,7 +270,12 @@
                                 <!-- Slide -->
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img class="card-image" src="images/testimonial-2.jpg" alt="alternative">
+                                        <span class="fa-stack">
+                                            <a href="#your-link">
+                                                <i class="fas fa-circle fa-stack-2x"></i>
+                                                <i class="fas fa-user-alt fa-stack-1x"></i>
+                                            </a>
+                                        </span>
                                         <div class="card-body">
                                             <p class="testimonial-text">Dabbas made earning extra income a breeze. I love being part of this innovative delivery community</p>
                                             <p class="testimonial-author">Femi - Banker</p>
@@ -272,7 +287,12 @@
                                 <!-- Slide -->
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img class="card-image" src="images/testimonial-3.jpg" alt="alternative">
+                                        <span class="fa-stack">
+                                            <a href="#your-link">
+                                                <i class="fas fa-circle fa-stack-2x"></i>
+                                                <i class="fas fa-user-alt fa-stack-1x"></i>
+                                            </a>
+                                        </span>
                                         <div class="card-body">
                                             <p class="testimonial-text">Dabbas provides exceptional support, from onboarding to delivery. Couldn't ask for a better partner!</p>
                                             <p class="testimonial-author">Percy - Online Vendor</p>
@@ -284,7 +304,12 @@
                                 <!-- Slide -->
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img class="card-image" src="images/testimonial-4.jpg" alt="alternative">
+                                        <span class="fa-stack">
+                                            <a href="#your-link">
+                                                <i class="fas fa-circle fa-stack-2x"></i>
+                                                <i class="fas fa-user-alt fa-stack-1x"></i>
+                                            </a>
+                                        </span>
                                         <div class="card-body">
                                             <p class="testimonial-text">Dabbas allows me to make a difference and be my own boss. It's a win-win situation!</p>
                                             <p class="testimonial-author">Roland - Courier</p>
@@ -429,7 +454,7 @@
                 <div class="col-lg-12">
                     <div class="text-container bg-gray">
                         <h4>Elevate your delivery experience with the added assurance of Chest Insurance, our trusted partner.</h4>
-                        <a class="btn-solid-lg" href="pricing.html">Go to Chest</a>
+                        <!-- <a class="btn-solid-lg" href="pricing.html">Go to Chest</a> -->
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -438,7 +463,7 @@
     <!-- end of invitation -->
 
 
-    <!-- Customers -->
+    <!-- Customers
     <div class="basic-8">
         <div class="container">
             <div class="row">
@@ -462,16 +487,16 @@
                         <img class="img-fluid" src="images/customer-logo-13.png" alt="alternative">
                         <img class="img-fluid" src="images/customer-logo-14.png" alt="alternative">
                         <img class="img-fluid" src="images/customer-logo-15.png" alt="alternative">
-                    </div> <!-- end of large-view -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-8 -->
-    <!-- end of customers -->
+                    </div> end of large-view
+                </div> end of col
+            </div> end of row
+        </div> end of container
+    </div> end of basic-8
+    end of customers -->
 
 
     <!-- Newsletter -->
-	<div class="form-2">
+	<div class="form-2 pt-3">
 		<div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -513,7 +538,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <p class="p-small">Copyright © <a href="https://dabbas.africa">Dabbas Africa</a></p>
+                    <p class="p-small py-5">Copyright © <a href="https://dabbas.africa">Dabbas Africa</a></p>
                 </div> <!-- end of col -->
             </div> <!-- enf of row -->
         </div> <!-- end of container -->
